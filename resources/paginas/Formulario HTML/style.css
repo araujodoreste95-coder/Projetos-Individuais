@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+}
+
+.background {
+  background-image: url("resources/bkg/bkg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.contentForm {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  position: relative;
+
+  top: 10vh;
+
+  font-family: sans-serif;
+  color: white;
+}
+
+.headerForm {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  position: relative;
+
+  top: 5vh;
+
+  font-family: cursive;
+  color: white;
+}
+
+input[type="submit"] {
+  background-color: rgba(95, 158, 160, 0.676);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+input[type="text"]{
+    background-color: rgba(95, 158, 160, 0.676);
+    color: white;
+}
+
+input[type="date"]{
+    background-color: rgba(95, 158, 160, 0.676);
+    color: white;
+}
+
+input[type="email"]{
+    background-color: rgba(95, 158, 160, 0.676);
+    color: white;
+}
+
+input[type="tel"]{
+    background-color: rgba(95, 158, 160, 0.676);
+    color: white;
+}
+
+textarea {
+    background-color: rgba(95, 158, 160, 0.676);
+    color: white;
+}
+
+/*=========IDs=========*/
+
+#FormBackground {
+  background-color: rgba(95, 158, 160, 0.515);
+}
+
+#cidade {
+  background-color: rgba(95, 158, 160, 0.46);
+  color: white;
+}

@@ -1,0 +1,48 @@
+body {
+  background-image: url("resources/bkg/bkg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+  margin: 0;
+}
+
+.groupProfile {
+  background-image: url("resources/bkg/bkg2.jpg");
+  border-radius: 50px;
+  width: 700px;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.groupPerfil {
+  position: relative;
+  top: 2px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tableSocial {
+  border-collapse: separate;
+  border-spacing: 20px;
+}
+
+.stylesH {
+  font-family: cursive;
+  text-align: center;
+}

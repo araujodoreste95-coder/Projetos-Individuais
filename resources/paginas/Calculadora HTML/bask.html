@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" href="css/bask.css">
+        <script src="js/bask.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h2>Calculadora de Equação do 2º Grau (Bhaskara)</h2>
+            <div class="formula">ax² + bx + c = 0</div>
+
+            <div class="coeficientes">
+                <div class="campo">
+                    <label for="a">a</label>
+                    <input type="number" id="a" step="any" placeholder="Ex: 1">
+                </div>
+                <span>x² +</span>
+                <div class="campo">
+                    <label for="b">b</label>
+                    <input type="number" id="b" step="any" placeholder="Ex: -5">
+                </div>
+                <span>x +</span>
+                <div class="campo">
+                    <label for="c">c</label>
+                    <input type="number" id="c" step="any" placeholder="Ex: 6">
+                </div>
+            </div>
+
+            <div class="campo decimais">
+                <label for="decimais">Máximo de casas decimais</label>
+                <input type="number" id="decimais" value="2" min="0" max="10">
+            </div>
+
+            <button onclick="calcularBhaskara()">CALCULAR</button>
+
+            <div class="resultado" id="resultado"></div>
+        </div>
+    </body>
+</html>

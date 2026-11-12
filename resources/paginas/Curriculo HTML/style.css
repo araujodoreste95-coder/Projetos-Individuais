@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===============Class=============== */
+
+.groupBkgCenter {
+  background-image: url("resources/bkg/bkg2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+}
+
+.groupProfile {
+  width: 250px;
+  height: 250px;
+  border-radius: 125px;
+}
+
+.groupInfo {
+  background-color: black;
+  background-attachment: fixed;
+
+  position: relative;
+
+  right: 30vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.conteinerBOX {
+  display: grid;
+
+  grid-template-columns: 3fr 1fr;
+
+  min-height: 100vh;
+
+  position: relative;
+
+  right: 108vh;
+}
+
+.marginStyle {
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  list-style: none;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+li :last-child {
+  margin-bottom: 0;
+}
+
+/* ===============IDs=============== */
+
+#IDBio {
+  position: relative;
+
+  text-align: left;
+
+  left: 125vh;
+
+  top: 5vh;
+}
+
+#IDBio h2 {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 30px;
+}
+
+#IDBio p {
+  font-family: "Courier New", Courier, monospace;
+
+  font-size: 15px;
+}
+
+#IDFooter {
+  width: 300%;
+  background-color: #000000;
+  color: white;
+
+  position: relative;
+
+  left: 17vh;
+
+  padding: 20px 0;
+
+  text-align: center;
+}
+
+#IDLanguagePTbr{
+ color:rgb(91, 218, 229);
+
+ font-size: 20px;
+}
+
+#IDLanguageENus {
+  color:rgb(91, 218, 229);
+
+  font-size: 20px;
+}
+
+#IDLanguageESsp {
+  color: rgb(91, 218, 229);
+
+  font-size: 20px;
+}
+
+#IDLanguagesSkills {
+  font-size: 15px;
+  padding: 10px;
+}
